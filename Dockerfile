@@ -1,7 +1,11 @@
-FROM node:alpine
+FROM node:16.13.2-alpine
+
 WORKDIR /app
-COPY package.json ./
-COPY package-lock.json ./
-COPY ./ ./
+
+COPY package.json /app
+ADD ./public /app/public
+ADD ./src /app/src/
+
 RUN npm i
+
 CMD ["npm", "start"]
