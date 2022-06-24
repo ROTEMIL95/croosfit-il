@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import Logo from '../assets/images/footer.png';
 import './Style/style.css';
 
 
