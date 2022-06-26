@@ -6,8 +6,10 @@ const HeroBanner = () => {
         <Box
             sx={{
                 mt: { lg: '212px', xs: '70px' },
-                ml: { sm: '50px' }
-            }} position="relative" p="20px"
+                ml: { sm: '50px' },
+                height: { xs: '800px' }
+            }} position="relative" p="30px"
+            className="hero-banner"
         >
             <Typography
                 color="#FF2625"
@@ -41,12 +43,12 @@ const HeroBanner = () => {
                 fontWeight={600}
                 color="#FF2625"
                 sx={{
-                    opacity: 0.1,
+                    opacity: 0.2,
                     display: { lg: 'block', xs: 'none' }
                 }}
                 fontSize="200px"
             >
-                Crossfit
+                Unbroken
             </Typography>
             <img src={ImageBanner} alt="ImageBanner"
                 className="ImageBanner"

@@ -1,11 +1,12 @@
 body {
   margin: 0;
   background-color: #16191f;
-  background-image:  linear-gradient(rgba(31, 3, 3, 0.164), rgba(255, 255, 255, 0)), url(../src/assets/images/background.jpg);
-  background-position: center;
+  background-image: url(../src/assets/images/backImage.jpg);
+  background-position: 30% ;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 850px;
+  
 
 }

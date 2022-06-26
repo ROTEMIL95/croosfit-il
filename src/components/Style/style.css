@@ -1,18 +1,11 @@
 
-
-
 :root {
   --main-color: #3C4657;
     --main-button: #F64B29;
     --second-button: #FF2625;
     --main-text: #FFD6AE;
 
-
-
   }
-
-
-
 .logo{
     width : 100px ; 
     height: 100px;
@@ -22,12 +15,12 @@
 .link-home{
     text-decoration: none;
     border-bottom : 3px solid  var(--main-button);
-    color : #000
+    color : #FFD6AE
 }
 
 .link-exercise{
     text-decoration: none;
-    color : #000
+    color : #FFD6AE
   }
 
 
@@ -36,19 +29,20 @@
     font-size: 16px !important;
     font-weight: bold !important;
   }
-
-
+  
 .ImageBanner{
     position: absolute;
+     opacity: 0.3;
     right: 40px;
     top: 0px;
     width: 700px;
     height: 900px;
     margin-top: -390px;
     border-radius: 0px 0px 0px 50px;
-    border: 1px solid var(--main-button);
     
 }
+
+
 
 .right-arrow,
 .left-arrow {
@@ -149,10 +143,7 @@
 
   }
 
-  .css-bf9wz-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
-    color: #fff;
-    background-color: orangered;
-}
+ 
 
 
 @media screen and (max-width:1200px) {
@@ -184,17 +175,35 @@
 
 
   @media screen and (max-width:400px) {
+.logo{
+  width : 80px ; 
+  height: 80px;
+  margin: 10px 10px; 
 
+}
     .ImageBanner{
          
           display: none;
         }
-   
-        .search-box{
-      margin-left: 50px;
-            }
-      .exercise-card {
+  
+      .exerciseCard {
            width: 280px;
            }
+
+           .react-horizontal-scrolling-menu--wrapper {
+             Width:90%;
+          }
+          .left-arrow,
+          .right-arrow {
+            position: absolute !important;
+            padding: 5px;
+            Width:20px;
+            height: 20px;
+          }
+
+          .exercise-video {
+            width: 250px;
+            height: 300px;
+          }
         
     }

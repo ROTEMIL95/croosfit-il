@@ -59,7 +59,11 @@ const SearchExercies = ({ setExercises, bodyPart, setBodyPart }) => {
             p="20px"
         >
             <Typography fontWeight={700}
-                sx={{ fontSize: { lg: '44px', xs: '30px' } }}
+                sx={{
+                    fontSize: { lg: '44px', xs: '24px' },
+
+
+                }}
                 mb="50px" textAlign="center"
                 color="#FFD6AE"
             >
@@ -76,7 +80,7 @@ const SearchExercies = ({ setExercises, bodyPart, setBodyPart }) => {
                             borderRadius: '4px'
                         },
 
-                        width: { lg: '800px', xs: '350px' },
+                        width: { lg: '800px', xs: '250px' },
                         backgroundColor: '#fff',
                         borderRadius: '40px'
                     }}
@@ -92,7 +96,7 @@ const SearchExercies = ({ setExercises, bodyPart, setBodyPart }) => {
                         bgcolor: '#F64B29',
                         color: '#fff',
                         textTransform: 'none',
-                        width: { lg: '100px', xs: '80px' },
+                        width: { lg: '100px', xs: '50px' },
                         fontSize: { lg: '20px', xs: '14px' },
                         position: "absolute",
                         height: "56px",

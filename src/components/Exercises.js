@@ -41,11 +41,11 @@ const Exercises = ({ exercises, bodyPart, setExercises }) => {
 
     return (
         <Box id="exercises"
-            sx={{ mt: { lg: '110px' } }}
+            sx={{ mt: { lg: '110px', xs: '50px' } }}
             mt="50px"
             p="20px"
         >
-            <Typography variant="h4" mb="46px" color="#FFD6AE">
+            <Typography variant="h4" mb="46px" color="#FFD6AE" sx={{ fontSize: { xs: '20px' } }}>
                 Showing Results
             </Typography>
             <Stack
