@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './Pages/Home';
 import ExerciseDetail from './Pages/ExerciseDetail';
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </Box>
   );
